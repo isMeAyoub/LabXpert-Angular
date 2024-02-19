@@ -3,10 +3,10 @@ import { Actions, ofType, createEffect } from '@ngrx/effects';
 import { of } from 'rxjs';
 import { catchError, map, switchMap } from 'rxjs/operators';
 import * as AnalysisActions from '../actions/analysis.actions';
-import { AnalysisService } from 'src/app/apis/Analysis/analysis.service';
+import { AnalysisService } from 'src/app/apis/analysis/analysis.service';
 
 /**
- * Analysis effects
+ * analysis effects
  * @class
  * @Author : mariam Laghfiri
  */

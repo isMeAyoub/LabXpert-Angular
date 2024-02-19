@@ -2,7 +2,7 @@ import { createSelector, createFeatureSelector } from '@ngrx/store';
 import { AnalysisState } from '../reducers/analysis.reducers';
 
 /**
- * Analysis state
+ * analysis state
  * @interface
  * @Author : mariam Laghfiri
  */

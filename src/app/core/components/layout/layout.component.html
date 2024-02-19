@@ -1,4 +1,4 @@
-<div class="h-full bg-gray-100">
+<div *ngIf="authService.isLoggedIn()" class="h-full bg-gray-100">
   <div class="h-full">
     <div>
       <app-sidebar></app-sidebar>
@@ -7,5 +7,11 @@
         <app-main></app-main>
       </div>
     </div>
+  </div>
+</div>
+
+<div *ngIf="!authService.isLoggedIn()" class="h-full bg-gray-50">
+  <div class="h-full">
+    <app-login></app-login>
   </div>
 </div>

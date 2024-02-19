@@ -6,6 +6,7 @@ import {LayoutComponent} from './components/layout/layout.component';
 import {RouterModule, RouterOutlet} from "@angular/router";
 import {SampleComponent} from "../features/sample/sample.component";
 import {MainComponent} from './components/main/main.component';
+import {FeaturesModule} from "../features/features.module";
 
 
 @NgModule({
@@ -18,11 +19,12 @@ import {MainComponent} from './components/main/main.component';
   exports: [
     LayoutComponent,
   ],
-  imports: [
-    CommonModule,
-    RouterModule,
-    RouterOutlet,
-  ]
+    imports: [
+        CommonModule,
+        RouterModule,
+        RouterOutlet,
+        FeaturesModule,
+    ]
 })
 export class CoreModule {
 }

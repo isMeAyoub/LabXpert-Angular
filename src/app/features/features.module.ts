@@ -9,6 +9,7 @@ import { PatientComponent } from './patient/patient.component';
 import { SchedulingComponent } from './scheduling/scheduling.component';
 import { AnalysesComponent } from './analyses/analyses.component';
 import { ResultComponent } from './result/result.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +20,13 @@ import { ResultComponent } from './result/result.component';
     PatientComponent,
     SchedulingComponent,
     AnalysesComponent,
-    ResultComponent
+    ResultComponent,
+    LoginComponent,
+
   ],
   exports: [
-    SampleComponent
+    SampleComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,

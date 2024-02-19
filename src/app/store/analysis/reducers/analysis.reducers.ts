@@ -3,7 +3,7 @@ import * as AnalysisActions from '../actions/analysis.actions';
 import { Analysis } from 'src/app/types/analysis/analysis';
 
 /**
- * Analysis state
+ * analysis state
  * @interface
  */
 export interface AnalysisState {
